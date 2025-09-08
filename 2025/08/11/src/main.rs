@@ -1,24 +1,3 @@
-//! # Balanced String Checker
-//!
-//! This program implements a function to check if a string is "balanced" based on vowel counts
-//! in its parts (split by spaces or inserted mid-string for single words).
-//!
-//! ## Purpose
-//! - For single words with no spaces: Inserts a space at the middle (handled differently for even/odd lengths)
-//!   and checks if both parts have an equal number of vowels ('a', 'e', 'i', 'o', 'u').
-//! - For multi-word strings: Splits on spaces and compares vowel counts of the words.
-//!
-//! ## Usage
-//! Call `is_balanced(s: &str)` with any string. Returns `true` if balanced, else `false`.
-//!
-//! ## Tests
-//! Run with `cargo test` to validate against examples like "racecar", "Lorem Ipsum", etc.
-//!
-//! ## Notes
-//! - Case-insensitive: Converts input to lowercase.
-//! - Vowels checked: Only the basic English set ['a', 'e', 'i', 'o', 'u'].
-//! - Assumes input has at least two splittable parts after processing; otherwise defaults behavior.
-//!
 //! Authors: RustedAperture
 //! Date: 2025/09/06
 
