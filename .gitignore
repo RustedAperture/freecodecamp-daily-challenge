@@ -1,2 +1,3 @@
 # Rust compiled artifacts
 target/
+.idea
